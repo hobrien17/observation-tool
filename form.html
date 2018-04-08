@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="formlogic.js"></script>
+	</head>
+	<body>
+		Input: <br> <input id="inp" size="85" type="text" onkeypress="inputType(event)">
+		<button id="btn" type="button" onclick="buttonPress()">Submit</button>
+		<button id="clear" type="button" onclick="clear()">Clear</button>
+		<br><br>
+		<div id="timer">
+			Timer: 00:00
+		</div>
+		<button id="starttimer" type="button" onclick="start()">Start</button>
+		<button id="stoptimer" type="button" onclick="stop()">Stop</button>
+		<button id="resettimer" type="button" onclick="reset()">Reset</button>
+		<br><br>
+		Output: <br> <textarea id="out" rows="40" cols="100" disabled></textarea>
+		<br>
+		<button id="dowload" type="button" onclick="downloadData()">Download</button>
+		<button id="clear" type="button" onclick="clearData()">Clear</button>
+	</body>
+</html>
